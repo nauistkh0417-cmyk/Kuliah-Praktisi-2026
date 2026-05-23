@@ -4,7 +4,7 @@ st.set_page_config(
   page_title="Kuliah Praktisi 2026", 
   page_icon="🧊", 
   layout="centered", 
-  initial sidebar_state="expanded"
+  initial_sidebar_state="expanded"
 )
 
 #Hirarkinteks
