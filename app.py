@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.set_page_config( 
-page_title="Finance Dashboard", 
-layout="wide
+  page_title="Kuliah Praktisi 2026", 
+  layout="wide
 )
 
-
+#Hirarkinteks
 st.title(" 📊Dashboard")
 st.header("Laporan Bulanan")
 st.subheader("📈 Monthly Expenses")
