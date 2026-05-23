@@ -22,4 +22,4 @@ if st.button("Say hello"):
 else:
     st.write("Goodbye")
 
-st.button "Reset", type-"primary"
+
