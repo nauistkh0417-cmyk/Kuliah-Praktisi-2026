@@ -4,6 +4,7 @@ st.set_page_config(
   page_title="Kuliah Praktisi 2026", 
   page_icon="🧊", 
   layout="centered"
+  initial sidebar_state="expanded"
 )
 
 #Hirarkinteks
@@ -12,4 +13,13 @@ st.header("Laporan Bulanan")
 st.subheader("📈 Monthly Expenses")
 st.caption("Made with using❤️Streamlit")
 st.write("Hello, *World!*😁")
+
+title st.text_input("Movie title", "Life of Brian") 17
 st.write("The current movie title is", title)
+
+if st.button("Say hello"): 
+    st.write("Why hello there")
+else:
+    st.write("Goodbye"))
+
+st.button "Reset", type-"primary"
