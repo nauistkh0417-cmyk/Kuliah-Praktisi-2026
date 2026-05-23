@@ -14,12 +14,12 @@ st.subheader("📈 Monthly Expenses")
 st.caption("Made with using❤️Streamlit")
 st.write("Hello, *World!*😁")
 
-title st.text_input("Movie title", "Life of Brian") 17
+title = st.text_input("Movie title", "Life of Brian") 17
 st.write("The current movie title is", title)
 
 if st.button("Say hello"): 
     st.write("Why hello there")
 else:
-    st.write("Goodbye"))
+    st.write("Goodbye")
 
 st.button "Reset", type-"primary"
